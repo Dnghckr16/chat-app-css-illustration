@@ -49,18 +49,18 @@ body{
     background-image: linear-gradient(to bottom,var(--Moderate-Violet)10%,var(--Light-Violet)90%);
     position: absolute;
     z-index: 1;
-    left:-98px;
+    left:-90.5px;
     top:0;
     border-radius: 0 0 300px 300px;
     
 }
 .bg2{
-    height:525px;
+    height:1000px;
     width:490px;
     background-color: var(--Light-Grayish-Violet);
     position: absolute;
     z-index: 1;
-    left:930px;
+    left:955px;
     top:120px;
     border-radius:300px 300px 0 0;
     opacity: 0.5;
@@ -71,22 +71,22 @@ main{
     max-width: 100%;
     display: flex;
     font-size: 8px;
-    gap: 120px;
-    margin-left: 100px;
+    gap: 80px;
+    margin-left: 50px;
      
 }
 h1{
-    font-size: 30px;
+    font-size: 32px;
     color: var(--Very-Dark-Desaturated-Violet);
-    font-weight:500;
+    font-weight:700;
 }
 .last-p{
     color: var(--Dark-Grayish-Violet);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
 }
 .content-box{
-    width: 400px;
+    width: 450px;
     max-width: 100%;
 }
 .container{
@@ -102,7 +102,6 @@ h1{
     box-shadow: 12px 12px  24px 6px rgba(0,0,0,0.07);
     width: 250px;
     padding:.5rem;
-    margin-left: 3rem;
     border-radius: 30px;
      max-width: 100%;
 }
@@ -360,26 +359,31 @@ input[type='text']:focus{
     display:flex;
     align-self: center;
 }
-@media
-(max-width:375px){
-
+@media(max-width:499px){
+    body{
+         overflow: visible;
+         padding:5rem 1rem 0;
+    }
     main{
         flex-direction: column;
-        margin:0 auto;
-        overflow: hide;
-        gap: 50px;
+        gap:0;
+        margin:0;
+    
+      
     }
     .bg-cellphone{
         margin-top: 30px;
+        margin:0 auto;
+        text-align: center;
     }
     
      .content-box{
-        width: 250px;
+        width: 65%;
         text-align: center;
-         margin:0 0 30px 0;
+        margin:2rem auto 0;
     }
     .bg1{
-        left:-225px;
+        left:-212px;
         top: -140px;
     }
     .bg2{
